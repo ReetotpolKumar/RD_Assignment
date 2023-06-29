@@ -105,12 +105,14 @@ nav {
     display: flex;
   }
   nav .title {
-    width: 98px;
+    background-image: url("../pv47kaalgysujzsemzaaf2juo0gx-removebg-preview.png");
+    width: 210px;
     height: 50px;
     flex-shrink: 0;
-    background-color: rgb(245, 245, 245);
+    background-size: 208px 47px;
     margin: 5px;
-    border: 1px solid var(--dark-theme-border-dark, #34333b);
+    background-repeat: no-repeat;
+ 
   }
   
   @media (max-width: 375px) {
@@ -152,12 +154,13 @@ nav {
       margin: 0;
     }
     nav .title {
+        background-image: url("../pv47kaalgysujzsemzaaf2juo0gx-removebg-preview.png");
       width: 72px;
       height: 72px;
       flex-shrink: 0;
-      background-color: rgb(245, 245, 245);
+     
       margin: 5px;
-      border: 1px solid var(--dark-theme-border-dark, #34333b);
+      
     }
   
     nav ul ul li {

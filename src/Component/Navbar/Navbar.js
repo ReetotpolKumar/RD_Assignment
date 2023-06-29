@@ -342,7 +342,7 @@ function Navbar() {
 
   return (
     <nav>
-      <Link className="title" to="/"></Link>
+      <Link className="title" to="https://media.licdn.com/dms/image/C560BAQH3bitkjT_eTA/company-logo_200_200/0/1519879462020?e=2147483647&v=beta&t=GeMxJYGxlCcJ6Yif4wMQxwIED4j52VTG_IyDIRGl6Ic"></Link>
       <div className="menu" onClick={toggleMenu}>
         {menuOpen ? <FaTimes /> : <FaBars />}
       </div>
