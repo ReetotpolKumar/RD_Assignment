@@ -349,7 +349,7 @@ function Navbar() {
       <ul className={menuOpen ? "open" : ""}>
         <li>
           <NavLink className="Nav1"  to="/home">
-            Ipsum
+           Home
           </NavLink>
           <ul>
             <li>
@@ -424,7 +424,7 @@ function Navbar() {
         </li>
         <li>
           <NavLink className="Nav2" activeClassName="active" to="/about">
-            Ipsum
+            About
               </NavLink>
           <ul>
             <li>
@@ -500,7 +500,7 @@ function Navbar() {
 
         <li>
           <NavLink className="Nav3" activeClassName="active" to="/contact">
-            Ipsum
+            Contact
               </NavLink>
           <ul>
             <li>
@@ -576,7 +576,7 @@ function Navbar() {
         
         <li>
           <NavLink className="Nav4" activeClassName="active" to="/Call">
-            Ipsum
+            Blog
               </NavLink>
           <ul>
             <li>
