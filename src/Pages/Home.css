@@ -1,0 +1,229 @@
+.text-dark {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--brand-colors-bg-color-primary, #003057);
+    font-size: 3rem;
+    margin-top: 10px;
+  }
+  
+  h3 {
+    font-size: 1px;
+  }
+  
+  .text-para {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+  }
+  
+  p {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-family: Montserrat;
+    color: var(--text-colors-light-theme-brand-on-light, #003057);
+    justify-content: center;
+    padding: 10px;
+  }
+  
+  .parabg {
+    background: var(--brand-colors-bg-color-primary, #003057);
+  }
+  
+  .parabg2 {
+    border: 1px solid #003057;
+    color: #003057;
+  }
+  
+  .mountain_img {
+    width: 100%;
+  }
+  .img_div {
+    display: flex;
+  }
+  .second_Img {
+    width: 100%;
+    height: 31%;
+  }
+  
+  .TextDiv2 {
+    background-color: rgb(249, 249, 249);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .bilinkSize {
+    font-size: 30px;
+  }
+  
+  .Ipsmbtn2 {
+    display: flex;
+    border-radius: 30px;
+    padding: 1px 20px 2px;
+    font-size: 15px;
+    background-color: #003057;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: auto;
+  }
+  
+  .sescond_Img2_Text {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .para2 {
+    font-size: 26px;
+    font-weight: bolder;
+  }
+  
+  .Bilink {
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+  }
+  
+  .maintopDiv_header {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  @media (max-width: 375px) {
+    * {
+      margin: 0px;
+      padding: 0;
+    }
+  
+    .maintopDiv_header {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .text-dark {
+      display: flex;
+  
+      align-items: center;
+      justify-content: center;
+      color: var(--brand-colors-bg-color-primary, #003057);
+      font-size: 2rem;
+      margin-top: 10px;
+      font-family: Montserrat;
+      flex-direction: column;
+      align-self: stretch;
+    }
+  
+    .text-para {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1.2rem;
+      flex-direction: column;
+    }
+    p {
+      font-size: 18px;
+      margin: 1rem;
+    }
+    nav .menu {
+      align-items: center;
+    }
+  
+    .img_div {
+      display: flex;
+      flex-direction: column;
+    }
+    .mountain_img {
+      width: 100%;
+    }
+    .img1_txt {
+      margin: 20px;
+      margin-top: 10px;
+    }
+  
+    .Ipsmbtn2 {
+      display: flex;
+      height: 39px;
+      width: 90px;
+      font-size: small;
+      font-weight: bolder;
+    }
+    .bilinkSize {
+      font-size: 30px;
+    }
+    .sescond_Img2_Text {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    .Bilink {
+      font-weight: bold;
+      text-decoration: none;
+      display: inline-block;
+      padding: 10px;
+    }
+  
+    .TextDiv2 {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+    .parabg {
+      margin: 10px;
+    }
+  
+    .parabg2 {
+      margin: 10px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .img_div {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .text-para {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0rem;
+      flex-direction: column;
+    }
+    text-dark {
+      font-size: 1rem;
+    }
+  
+    
+  }
+  
+  @media screen and (max-width: 666px) {
+    .text-dark {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--brand-colors-bg-color-primary, #003057);
+      font-size: 2rem;
+      margin-top: 10px;
+    }
+  }
+  @media screen and (max-width: 678px) {
+    .text-dark {
+      
+      font-size: 2rem;
+     
+    }
+  }
+  @media screen and (max-width: 470px) {
+    .text-dark {
+      
+      font-size: 2rem;
+     
+    }
+  }
+  
